@@ -1,0 +1,14 @@
+{
+  "name": "Scrim-s04it8h07q",
+  "description": "https://v2.scrimba.com/s04it8h07q",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}
