@@ -3,6 +3,13 @@ import { openai } from './config.js';
 const asstID = "asst_wUu8fCNZ8zvS2UB5OUP4M2ac";
 const threadID = "thread_8sc0gOJzhxWG2b5pPRSwGuLt";
 
+// List thread messages
+async function listMessages() {
+  const threadMessages = await openai.beta.threads.messages.list(threadID);
+  console.log(threadMessages.data);
+}
+listMessages()
+
 // Get the current run
 const currentRun = await openai.beta.threads.runs.retrieve(
   threadID,
