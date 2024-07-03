@@ -4,11 +4,11 @@ const asstID = "asst_wUu8fCNZ8zvS2UB5OUP4M2ac";
 const threadID = "thread_8sc0gOJzhxWG2b5pPRSwGuLt";
 
 // Get the current run
-// const currentRun = await openai.beta.threads.runs.retrieve(
-//   threadID,
-//   "run_8Y9joh5ACv06TBVXwtYE32Hq"
-// );
-// console.log("Run status: " + currentRun.status);
+const currentRun = await openai.beta.threads.runs.retrieve(
+  threadID,
+  "run_vywQGepBxDDznMYEsmvrWGE4"
+);
+console.log("Run status: " + currentRun.status);
 
 // Run the assistant's thread
 async function runThread(){
@@ -18,7 +18,7 @@ async function runThread(){
   );
   console.log(run);
 }
-runThread()
+// runThread()
 
 // Create a message for the thread
 async function createMessage() {
