@@ -4,10 +4,6 @@ Install the dependencies and run the project
 npm install
 npm start
 ```
-
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
-
 This app uses OpenAI's Assistant API. 
 This is a context aware chat bot that recommends movies based on information from a custom movie database.
 For example, I can tell that I need a good laugh and it replies I should definitely watch the movie Glass Onion.
