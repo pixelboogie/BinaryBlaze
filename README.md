@@ -3,7 +3,7 @@
 ## Description
 **BinaryBlaze** is a context-aware chatbot designed to offer personalized movie recommendations from your own movie database. Simply tell it, "I need a good laugh," and it might suggest, "You should definitely watch Glass Onion!" Your movie database is a text file listing movie titles and their synopses, and the chatbot leverages this database to provide accurate and dynamic movie suggestions based on user input.
 
-The application features a user-friendly interface with a text field where you can ask any movie-related question. The assistant's API manages conversation history, organizing everything neatly into threads, making for a seamless and engaging user experience.
+The application features a user-friendly interface with a text field where you can ask any movie-related question. **OpenAI's Assistant API** manages conversation history, organizing everything neatly into threads, making for a seamless and engaging user experience.
 
 ## Features
 - **Personalized Movie Recommendations**: Offers movie suggestions tailored to your mood or preferences based on a custom database.
